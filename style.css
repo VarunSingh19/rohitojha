@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+h2, h3{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+    font-family: 'Sevillana', cursive;
+}
+
+nav {
+    background: #0c0d0e;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,
+a:hover {
+    background: #1b9bff;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width: 952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    a:hover,
+    a.active {
+        background: none;
+        color: #0082e6;
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+}
+
+/* button{
+    border-radius: 30px;
+    color: red;
+    
+} */
+
+section {
+    background: url(bg1.jpg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+}
+
+body {
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+.about {
+    width: 120px;
+    border-radius: 50%;
+    /* font-size: 50px; */
+    border: 2px solid rgb(253, 249, 249);
+    font-family: 'Courier New', Courier, monospace
+}
+
+ @import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap'); 
+.work {
+    width: 100px;
+    border-radius: 50%;
+    font-size: 50px;
+    /* border: 2px solid white; */
+    font-family: 'Courier New', Courier, monospace
+}
+
+.work1 {
+    width: 150px;
+    border-radius: 50%;
+    font-size: 50px;
+    float: left;
+    border: 2px solid white;
+}
+
+.work2 {
+    width: 150px;
+    border-radius: 50%;
+    font-size: 50px;
+    float: right;
+    border: 2px solid white;
+}
+
+
+/* #work{ */
+/* text-align:center; */
+/* } */
+/* #about{ */
+/* text-align:center; */
+/* } */
+/* #contact{ */
+/* text-align:center; */
+/* } */
+header {
+
+    text-align: center;
+    border: 2px solid black
+}
+
+.span {
+    border: 2px solid black
+}
+
+/* nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #333;
+   color: #fff;
+ }
+ 
+ nav ul {
+   display: flex;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+ }
+ 
+ nav li {
+   margin: 0 30px;
+ }
+ 
+ nav a {
+   color: #fff; */
+/* text-decoration: none;
+ }
+  */
+/* nav a:hover {
+   color: #ccc;
+ } */
+
+
+/* login box css */
+ <style>
+        .loginbox {
+            text-align: center;
+        }
+
+        .log {
+            text-align: center;
+        }
+
+        .para {
+            text-align: center;
+        }
+
+        legend {
+            background-color: rgb(233, 243, 170);
+            padding: 5px 10px;
+            border: 2px solid red;
+        }
+
+        fieldset {
+            background-color: beige;
+            width: 50%;
+            padding: 20px;
+            margin: auto;
+        }
+    </styl>
