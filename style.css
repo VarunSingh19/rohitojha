@@ -5,7 +5,25 @@
     list-style: none;
     box-sizing: border-box;
 }
-h2, h3{
+.igm{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+/* blinker effect */
+/* h2,h3{
+    animation: blinker 0.6s linear infinite;
+}
+
+@keyframes blinker{
+    none
+    {
+        opacity: none;
+    }
+} */
+
+h2,
+h3 {
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -14,9 +32,10 @@ body {
 }
 
 nav {
-    background: #0c0d0e;
+    background: #060606;
     height: 80px;
     width: 100%;
+    position: fixed;
 }
 
 label.logo {
@@ -86,7 +105,7 @@ a:hover {
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: #2c3e50;
+        background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
         top: 80px;
         left: -100%;
         text-align: center;
@@ -127,25 +146,29 @@ section {
 }
 
 body {
-    background: rgb(63,94,251);
-    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
 }
 
 .about {
     width: 120px;
-    border-radius: 50%;
+    border-inline-color: black;
+    border-radius: 0%;
     /* font-size: 50px; */
-    border: 2px solid rgb(253, 249, 249);
-    font-family: 'Courier New', Courier, monospace
+    border: 2px solid rgb(5, 5, 5);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+    padding: 10px;
 }
 
- @import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
 .work {
     width: 100px;
     border-radius: 50%;
     font-size: 50px;
     /* border: 2px solid white; */
-    font-family: 'Courier New', Courier, monospace
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .work1 {
@@ -177,11 +200,11 @@ body {
 header {
 
     text-align: center;
-    border: 2px solid black
+    /* border: 2px solid black */
 }
 
 .span {
-    border: 2px solid black
+    border: 2px solid black;
 }
 
 /* nav {
@@ -214,29 +237,29 @@ header {
 
 
 /* login box css */
- <style>
-        .loginbox {
-            text-align: center;
-        }
+/* <style>.loginbox {
+    text-align: center;
+}
 
-        .log {
-            text-align: center;
-        }
+.log {
+    text-align: center;
+}
 
-        .para {
-            text-align: center;
-        }
+.para {
+    text-align: center;
+}
 
-        legend {
-            background-color: rgb(233, 243, 170);
-            padding: 5px 10px;
-            border: 2px solid red;
-        }
+legend {
+    background-color: rgb(233, 243, 170);
+    padding: 5px 10px;
+    border: 2px solid red;
+}
 
-        fieldset {
-            background-color: beige;
-            width: 50%;
-            padding: 20px;
-            margin: auto;
-        }
-    </styl>
+fieldset {
+    background-color: beige;
+    width: 50%;
+    padding: 20px;
+    margin: auto;
+}
+
+</styl> */
